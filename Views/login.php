@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +11,45 @@
 <link href="css/custom.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
+<div class="container" style="background-image:url('a.png')">
 		
 	<div class="row">
 
-		<aside class="col-sm-offset-4 col-sm-4 bg-success" >
-			
-				<h1 align="center" Style="color:Red">User Login</h1>
+		<aside class="col-sm-offset-4 col-sm-4  col-sm-offset-4" >
+			<br/>
+			<br/>
+			<br/><br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 align="center" Style="color:Red">User Login</h1>
 
-			<p><input type="text" class="form-control" name="name" placeholder="Email" style="width:350px"></p>
+			<p><input type="text" class="form-control" name="name" placeholder="Email"></p>
 	
 			
-		<p>	<input type="password" class="form-control" name="pass" placeholder="password" style="width:350px">
-			</p>
-			<p><label><input type="checkbox"> Remember Me</label></p>
-			<p>
-   			<button type="button" class="btn btn-primary">Login</button></p>
+			<input type="password" class="form-control" name="pass" placeholder="password">
+			<br/>
+			
+			<p><label><input type="checkbox"> Remember Me</label>
+			
+   			 <button type="button" class="btn btn-primary btn-md"  style="height:40px; width:100px">Login</button></p>
+   			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
     	</aside>
-    	<article class="col-s-4">
-    	<p style="color:Red"></p>
-    	</article>
+    
 
-    </div>
-</div>
+    
+
 
 </body>
 </html>
