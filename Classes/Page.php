@@ -4,7 +4,7 @@ class Page
 {
 	public function index()
 	{
-		echo "<h1>Hello World!</h1>";
+		echo "<h1>Here will be home page template of all page</h1>";
 	}
 	public function login()
 	{
