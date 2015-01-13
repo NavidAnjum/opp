@@ -3,11 +3,15 @@ body{
 
 }
 .navbar-custom{
- font-style: black;
-	color: black;
 	background-color: green;
 }
 
 .navbar-nav > li > a  {
     font-size: 200 px;
+}
+
+.container-fluid
+{ 
+	padding-right: 0 px;
+  padding-left: 0 px;
 }

@@ -2,15 +2,21 @@
 
 class Page
 {
+	private $template;
+	public function __construct()
+	{
+		$this->template = new Template();
+	}
+
 	public function index()
 	{
 		echo "<h1 style='color:red';>Here will be home page template of all page</h1>";
 	}
 	public function login()
 	{
-		$template = new Template;
+		
 		$data['content'] = $template->render('test',array('hello'=>'hello world'),true);
-		$template->render('Templates/template',$data);
+		$this->template->render('Templates/template',$data);
 	}
 	public function home()
 	{
@@ -19,7 +25,9 @@ class Page
 
 	public function register()
 	{
-		require_once("Views/register.php");
+		$data['content'] = '';
+		$this->template->render('Templates/register',$data);
+		//require_once("Views/register.php");
 	}
 
 	public function users()

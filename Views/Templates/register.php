@@ -9,7 +9,7 @@
 	</head>
 
 	<body>
-	<div class="container">
+	<div class="container-fluid">
 		
 
 		<nav class="navbar navbar-default navbar-custom">
@@ -46,25 +46,27 @@
 		<div class="row">
 
 			<div class="col-md-6">
+			
 			</div>
 			
-			<aside class="col-md-6">
+			<aside class="col-md-5">
 			<h1>Sign Up</h1>
 			<p style="font-size:20px">Its free to sign up</p>
 			
 			<form class="form-group">
-			<input type="email" class="form-control" id="email" placeholder="Email">
-			<input type="text" class="form-control" id="name" placeholder="Name">
-			<input type="password" class="form-control" id="pass" placeholder="Password">
-			<input name="text" class="form-control" id="phone" placeholder="Phone">
-			<input name="text" class="form-control" id="address" placeholder="Address">
-			<button type="submit"></button>
+			<p><input type="email" class="form-control" id="email" placeholder="Email"></p>
+			<p><input type="text" class="form-control" id="name" placeholder="Name"></p>
+			<p><input type="password" class="form-control" id="pass" placeholder="Password"></p>
+			<p><input name="text" class="form-control" id="phone" placeholder="Phone"></p>
+			<p><input name="text" class="form-control" id="address" placeholder="Address"></p>
+			<p><button type="submit" class="btn btn-primary">Sign Up</button></p>
 			</form>
 
 			</aside>
 
 		</div>
-	
+	<div class="col-md-1">
+			</div>
 
     </div>
 	</body>
