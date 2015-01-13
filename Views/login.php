@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +11,45 @@
 <link href="css/custom.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-
+<div class="container" style="background-image:url('a.png')">
+		
 	<div class="row">
 
-		<div class="col-sm-12">
-			<p>Email:
-			<input type="text" name="name"></p>
+		<aside class="col-sm-offset-4 col-sm-4  col-sm-offset-4" >
+			<br/>
+			<br/>
+			<br/><br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 align="center" Style="color:Red">User Login</h1>
+
+			<p><input type="text" class="form-control" name="name" placeholder="Email"></p>
 	
-			<p>Password:
-			<input type="password" name="pass"></p>
-	
-   			<input type="submit" value="submit">
-    	</div>
-    </div>
-</div>
+			
+			<input type="password" class="form-control" name="pass" placeholder="password">
+			<br/>
+			
+			<p><label><input type="checkbox"> Remember Me</label>
+			
+   			 <button type="button" class="btn btn-primary btn-md"  style="height:40px; width:100px">Login</button></p>
+   			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+    	</aside>
+    
+
+    
+
+
 </body>
 </html>
