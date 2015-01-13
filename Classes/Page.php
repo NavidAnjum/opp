@@ -8,7 +8,9 @@ class Page
 	}
 	public function login()
 	{
-	require_once("Views/login.php");	
+		$template = new Template;
+		$data['content'] = $template->render('test',array('hello'=>'hello world'),true);
+		$template->render('Templates/template',$data);
 	}
 
 	public function users()

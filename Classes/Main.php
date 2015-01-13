@@ -1,5 +1,5 @@
 <?php
-require_once("Classes/Page.php");
+
 
 class Main
 {
@@ -9,6 +9,10 @@ class Main
 
 	public function run()
 	{
+		
+		
+		
+
 		$page = new Page();
 
 		if(isset($_GET["P"]) && !empty($_GET["P"]))
