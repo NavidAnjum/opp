@@ -9,20 +9,21 @@
 	</head>
 
 	<body>
-	<div class="container-fluid">
+	<div class="container-fluid container-custom" >
 		
 
 		<nav class="navbar navbar-default navbar-custom">
-			<div class="container-fluid">
+			
 				
 				<div class="row">
 					<div class="col-md-2 navbar-header">
-				<font size="50px">Socialbook</font>
+				<h1>Socialbook</h1>
 				</div>
 						<div class="col-md-offset-4 col-md-6">
-						<ul class="nav navbar-nav">
+					
 						
 						<form class="navbar-form navbar-left" role="search">
+							<ul class="nav navbar-nav">
 							<div class="form-group">
 							<input type="text" class="form-control" id="name" placeholder="name">
 							&nbsp;&nbsp;
@@ -35,12 +36,13 @@
 							<p class="col-md-7">
 							<a href="#" style="color:black">Forgot your password?</a></p>
 							</div>
+						</ul>
 						</form>
 
-						</ul>
+						
 						</div>
 					</div>
-			</div>
+		
 		</nav>
 
 		<div class="row">
