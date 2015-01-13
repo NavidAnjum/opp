@@ -1,5 +1,13 @@
 body{
-	padding-top: 10px;
+	
 
 }
+.navbar-custom{
+ font-style: black;
+	color: black;
+	background-color: green;
+}
 
+.navbar-nav > li > a  {
+    font-size: 200 px;
+}

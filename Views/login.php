@@ -24,15 +24,16 @@
 			<br/>
 			<h1 align="center" Style="color:Red">User Login</h1>
 
-			<p><input type="text" class="form-control" name="name" placeholder="Email"></p>
+			<p><input type="text" class="form-control" name="name" placeholder="Email" style="width:320px"></p>
 	
 			
-			<input type="password" class="form-control" name="pass" placeholder="password">
+			<input type="password" class="form-control" name="pass" placeholder="password" style="width:320px">
 			<br/>
 			
 			<p><label><input type="checkbox"> Remember Me</label>
 			
-   			 <button type="button" class="btn btn-primary btn-md"  style="height:40px; width:100px">Login</button></p>
+   			 <button type="button" class="btn btn-primary btn-md"  style="height:40px; width:100px">Login</button> OR <a href="#">Register</a></p> 
+   			 <p></p>
    			<br/>
 			<br/>
 			<br/>
@@ -48,8 +49,5 @@
     	</aside>
     
 
-    
-
-
-</body>
+   </body>
 </html>

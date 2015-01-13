@@ -12,6 +12,15 @@ class Page
 		$data['content'] = $template->render('test',array('hello'=>'hello world'),true);
 		$template->render('Templates/template',$data);
 	}
+	public function home()
+	{
+		require_once("Views/home.php");
+	}
+
+	public function register()
+	{
+		require_once("Views/register.php");
+	}
 
 	public function users()
 	{
