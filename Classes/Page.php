@@ -37,7 +37,8 @@ class Page
 	
 	public function profile()
 	{
-	require_once("Views/profile.php");
+		$data['content']='';
+		$this->template->render('Templates/profile',$data);
 	}
 	
 	public function adduser()
