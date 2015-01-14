@@ -4,13 +4,58 @@ body{
 }
 .navbar-custom{
 	background-color: green;
+  min-height: 20px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
 }
-
-
-
 .container-custom {
  padding-right: 0px;
  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
+
+h1
+{
+	color: #777;
+}
+
+h1.logo{
+
+	padding-left:50px;
+	color: #fff;
+}
+
+.navbar-form p,.navbar-form p a{
+
+	color: #fff;
+}
+
+.navbar-form{
+	padding-top: 12px;
+}
+
+.form-group p .form-control{
+
+height: 40px;
+margin-bottom: 20px;
+}
+.signupform
+{
+	margin-top: 40px;
+}
+
+div.form-group input.form-control{
+margin-left: 10px;
+margin-right: 10px;
+}
+div.row p.col-md-4{
+	margin-left: 10px;
+}
+div.row p.col-md-7{
+	margin-left: 30px;
+}
+
+
+
+

@@ -7,6 +7,4 @@ $loader = new Loader;
 $loader->loadClasses();
 $loader->loadConfig();
 $i=new Main();
-
 $i->run();
-

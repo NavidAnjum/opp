@@ -16,10 +16,10 @@
 			
 				
 				<div class="row">
-					<div class="col-md-2 navbar-header">
-					<h1>Socialbook</h1>
+					<div class="col-md-2 navbar-header" style="font-size:30px">
+					<p style="padding-left:50px">Socialbook</p>
 					</div>
-						<div class="col-md-offset-4 col-md-4">
+						<div class="col-md-4">
 					
 						
 							<form class="navbar" role="search">
@@ -33,10 +33,14 @@
 							
 					
 						</form>
-
+							
+							<div class="col-md-4" style="padding-top:30px" >
+							<button type="button" class="btn btn-warning"></button>
+							</div>
 						
 						
 					</div>
+
 		
 		</nav>
 		<div class="container">
@@ -45,7 +49,11 @@
 			
 			<div class="row">
 			
-			<div class="col-md-offset-4 col-md-4 col-md-offset-4">
+				<div class="col-md-4">
+
+				</div>
+
+				<div class="col-md-4">
 			
 				<form class="form-group">
 					<p><input type="text" class="form-control" id="name" value="<?php echo "Name"?>"></p>
