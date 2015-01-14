@@ -10,7 +10,9 @@ class Page
 
 	public function index()
 	{
-		echo "<h1 style='color:red';>Here will be home page template of all page</h1>";
+		$this->template->setTemplate('welcome');
+		$data['content'] = $this->template->view('test',array('hello'=>'hello world'),true);
+		$this->template->render($data);
 	}
 	public function login()
 	{
@@ -26,7 +28,8 @@ class Page
 	public function register()
 	{
 		$data['content'] = '';
-		$this->template->render('Templates/register',$data);
+		$this->template->setTemplate('register');
+		$this->template->render($data);
 		//require_once("Views/register.php");
 	}
 

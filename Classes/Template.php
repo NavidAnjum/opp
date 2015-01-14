@@ -15,7 +15,7 @@ class Template{
 		$this->_current_template = $template;
 	}
 
-	public function render($filename,$data,$true=false)
+	public function view($filename,$data=array(),$true=false)
 	{
 		extract($data);
 
@@ -30,6 +30,12 @@ class Template{
 
 			include($this->getViewPath()."/{$filename}.php");
 		}
+	}
+
+	public function render($data=array())
+	{
+		extract($data);
+		include($this->getTemplatePath().DS.$this->_current_template.'.php');
 	}
 
 	public function getViewPath()

@@ -42,9 +42,12 @@ class Loader{
 					{ 
 
 						$config_elm = substr(basename($fileName), 0, -4);
-						
-						$this->configs[$config_elm] = include($_configDir.DS.$file);
-						 
+						try{
+							$this->configs[$config_elm] = include($_configDir.DS.$file);
+					 	}catch(Exception $ex)
+					 	{
+					 		echo "<h1>Error Message: {$ex->getMessage() }</h1>";
+					 	}
 					}
 				}
 			}
