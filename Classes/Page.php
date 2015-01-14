@@ -15,7 +15,7 @@ class Page
 	public function login()
 	{
 		
-		$data['content'] = $template->render('test',array('hello'=>'hello world'),true);
+		$data['content'] = $this->template->render('test',array('hello'=>'hello world'),true);
 		$this->template->render('Templates/template',$data);
 	}
 	public function home()

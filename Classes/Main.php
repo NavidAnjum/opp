@@ -10,9 +10,6 @@ class Main
 	public function run()
 	{
 		
-		
-		
-
 		$page = new Page();
 
 		if(isset($_GET["P"]) && !empty($_GET["P"]))
