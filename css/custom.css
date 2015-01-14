@@ -6,12 +6,11 @@ body{
 	background-color: green;
 }
 
-.navbar-nav > li > a  {
-    font-size: 200 px;
-}
 
-.container-fluid
-{ 
-	padding-right: 0 px;
-  padding-left: 0 px;
+
+.container-custom {
+ padding-right: 0px;
+ padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
