@@ -1,10 +1,14 @@
 <?php
-require_once("Classes/Loader.php");
+require_once("core/Loader.php");
 
 define('DS',DIRECTORY_SEPARATOR);
+
 error_reporting(E_ALL);
+
 $loader = new Loader;
-$loader->loadClasses();
-$loader->loadConfig();
+$loader->loadResources();
+
+
 $i=new Main();
 $i->run();
+

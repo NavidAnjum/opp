@@ -35,6 +35,7 @@ class Template{
 	public function render($data=array())
 	{
 		extract($data);
+		
 		include($this->getTemplatePath().DS.$this->_current_template.'.php');
 	}
 

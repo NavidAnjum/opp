@@ -2,6 +2,6 @@
 
 
 return array(
-	'view_path' => './Views',
-	'template_path' => './Templates'
+	'view_path' => './app/views',
+	'template_path' => './app/templates'
 );
