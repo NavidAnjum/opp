@@ -10,20 +10,6 @@ class Register extends BaseController{
 		$this->template = new Template('register');
 	}
 
-	public function preDispatch()
-	{
-
-	}
-
-	public function postDispatch()
-	{
-
-	}
-
-	public function permission()
-	{
-
-	}
 	
 	public function index()
 	{
