@@ -22,8 +22,7 @@ class BaseController implements Icontroller
 		if(method_exists($this->controller, 'postDispatch'))
 		{
 			$this->controller->postDispatch();
-		}
-			
+		}		
 		
 	}
 

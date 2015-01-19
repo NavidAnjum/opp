@@ -7,13 +7,17 @@
 
   background-color: green;
   min-height: 20px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
+  margin-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  
 
 }
 .container-custom {
-
-	/*background-color:#1cc222;*/
+ 
+  margin-left: 0px;
+  margin-right: 0px;
+	background-color:green;*/
 }
 .main_content{
 background-color: #fff;
@@ -40,7 +44,7 @@ h1.logo{
 }
 
 .navbar-form{
-	padding-top: 12px;
+	padding-top: 15px;
 }
 
 .form-group p .form-control{
@@ -65,7 +69,9 @@ padding-left: 110px;
 footer{
 	clear:both;
 	text-align:center;
+	border-top: 1px solid green;
 	padding:20px;
+
 }
 
 
