@@ -48,5 +48,10 @@ class Page
 	{
 
 	}
+	public function html5()
+	{
+		$data['content']='';
+		$this->template->render('Templates/html5',$data);
+	}
 }
 ?>

@@ -1,0 +1,34 @@
+body
+{
+	background-color: #111;
+}
+
+p.pclass{
+	color: #fff;
+}
+p#pid{
+	color:#fff;
+}
+
+p[name]
+{
+	color: #fff;
+}
+p[name="a"]
+{
+	color: #11f;
+}
+
+p[name^="nav"]
+{
+	color: #1ff;
+}
+
+p[name$="m"]
+{
+	color:green;
+}
+p[name*="tan"]{
+
+color: #111;
+}
