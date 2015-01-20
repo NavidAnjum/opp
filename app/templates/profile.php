@@ -24,7 +24,7 @@
 
  								<p class="form-control logo">S</p>
 
-								<input type="text" class="form-control" id="search" size="90px" placeholder="Search for friend!">
+								<input type="text" class="form-control search" id="search" size="90px"  placeholder="Search for friend!">
 
 								
 								</div>
@@ -34,7 +34,16 @@
 							</div>
 
 							<div class="col-md-5">
-								
+								<div class="header_image">
+								<img src="img/navid.jpg"><a href="#"></img>
+								<p class="header_image_name">Navid </p><p class="header_image_name_sl">&#124</p>
+								<p class="header_image_name_home">Home</p>
+								<p class="glyphicon glyphicon-user friend_request"></p>
+								<p class="glyphicon glyphicon-envelope message"></p>
+								<p class="glyphicon glyphicon-collapse-down"></p>
+								</div>
+						   </div>
+
 							</div>
 							
 							
@@ -51,22 +60,16 @@
 			<div class="row">
 			
 				<div class="col-md-2 menu">
-					
+						
+						<div class="session_image">
+						<img src="img/navid.jpg"><a href="#"></img>
+						<p class="navid"><a href="#" style="color:black"><b>Navid Anjum</b></a></p><p><a href="#" style="color:black">Edit Profile</a></p>
+						</div>
 				
-					  <span class="popups" title="Picture">
-					  
-					  <p style="font-weight:bold">Picture</p>
-					  </span>
-  					
-  						<span class="popup" title="Name">
-						<p >Name</p>
-						</span>
-					
-					
 						<span class="popups" title="News Feed">
 					  
 					  	<p style="font-weight:bold">News Feed</p>
-					  </span>
+					    </span>
 					
 						<span class="popup" title="Messages">
 						<p>Messages</p>
@@ -109,9 +112,16 @@
 						</div>
 
 							<div class="main_content">
+								<div class="upper_status">
+									<div class="session_image">
+									<img src="img/navid.jpg"><a href="#"></img>
+									<p class="navid"><a href="#" ><b>Navid Anjum</b></a></p>
+									</div>
+								</div>
+
 							<p>
 							<img src="img/1.jpg" class="img-responsive" alt="Responsive Image"></p>
-							<img src="img/navid.jpg" class="img-responsive img-custom" alt="Responsive Image">
+							
 							</div>
 
 					
