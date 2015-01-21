@@ -3,26 +3,37 @@
 	padding: 0px;
 }
 body{
-	background: #f7f7f7;
+	background: #dfe3ee;
+	width:100%;
+
+}
+.custom_header{
+	background: #3b5998;
+	font: bold 20px Tohoma;
+	padding-left: 77px;
+}
+ .custom_header .gly_custom
+{
+padding-left: 20px;
+}
+.custom_header .glyphicon{
+	padding-top: 10px;
 }
 .logo{
 margin-top:8px;
 padding-top: 0px; 
 font:bold 17px Tohoma;
-height:25px;
-
-
+height:24px;
 }
+
 .search{
-	height: 25px;
-}
+	height: 24px;
+	padding: 5px;
+	padding-top: 3px;
 
-.custom_header{
-	
-	text-align: center;
-	background: #3b5998;
-	padding-left: 23px;
-	font: bold 30px Tohoma;
+}
+.gly{
+	padding-left: 20px;
 }
 .main_body{
 	
@@ -32,16 +43,29 @@ height:25px;
 }
 .menu{
 	text-align: left;
-	padding-left:105px;
+	padding-left:90px;
 	padding-right: 0px;
 	padding-top: 10px;
+	font-size: 13px;
 }
-.section{
+li{
+  margin: 10px 0;
+}
+span{
 
-
-	padding-top:10px;
+	padding: 5px;
 	
+}
 
+span:hover{
+
+	background-color: #D9D9D9;
+
+}
+
+
+.section{
+	padding-top:10px;
 	padding-right: 50px;
 
 }
@@ -63,20 +87,6 @@ outline: none;
   box-shadow: none !important;
 */
 }
-
-
-
-
-
-span.popups:hover {
-
- }
-
-span.popup:hover {
-
- }
-
-
 .status{
 	padding-left: 0px;
 	height:30%;
@@ -93,20 +103,12 @@ span.popup:hover {
 	padding-bottom: 20px;
 }
 
-span p{
-	padding-left: 5px;
-}
-
-span p:hover{
-	height:25px;
-	background-color: #D9D9D9;
-
-}
 
 .main_content{
 background-color: #fff;
 margin: 50px auto;
-max-height: 100px;
+max-height: 2000px;
+padding-bottom: 20px;
 }
 
 img{
@@ -165,6 +167,16 @@ div .session_image{
 	padding-top: 10px;
 }
 
+
+.session_image_comment img{
+	float: left;
+	background:#dfe3ee;
+}
+
+
+
+
+
 a:link {
     color: black;
 }
@@ -189,6 +201,7 @@ a:link {
 	font-size: 18px;
 	padding-top:4px;
 }
+
 .header_image_name_home{
 	float: left;
 	color: #fff;
@@ -197,6 +210,10 @@ a:link {
 	padding-top: 10px;
 }
 
+.gly_custom{
+	padding: 5px;
+
+}
 p a:link{
 	color: black;
 }

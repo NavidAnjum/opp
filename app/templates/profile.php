@@ -6,6 +6,7 @@
 	</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/profile.css" rel="stylesheet">
+
 	</head>
 
 	<body>
@@ -15,7 +16,7 @@
 				<div class="row custom_header">
 
 							
-							<div class="col-md-7 ">
+							<div class="col-md-6 ">
 					
 						   
 								<form class="form-inline" role="search">
@@ -24,7 +25,7 @@
 
  								<p class="form-control logo">S</p>
 
-								<input type="text" class="form-control search" id="search" size="90px"  placeholder="Search for friend!">
+								<input type="text" class="form-control search" id="search" size="80px;" placeholder="Search for friend!">
 
 								
 								</div>
@@ -33,24 +34,27 @@
 
 							</div>
 
-							<div class="col-md-5">
+							<div class="col-md-6">
 								<div class="header_image">
-								<img src="img/navid.jpg"><a href="#"></img>
-								<p class="header_image_name">Navid </p><p class="header_image_name_sl">&#124</p>
+								<img src="img/navid.jpg"><a href="#"></a></img>
+								<p class="header_image_name">Navid </p><p class="header_image_name_sl"> &#124 </p>
 								<p class="header_image_name_home">Home</p>
-								<p class="glyphicon glyphicon-user friend_request"></p>
-								<p class="glyphicon glyphicon-envelope message"></p>
-								<p class="glyphicon glyphicon-collapse-down"></p>
+								<small class="gly"><span class="glyphicon glyphicon-user"></span></small>
+								<small><span class="glyphicon glyphicon-envelope"></span></small>
+								<small><span class="glyphicon glyphicon-collapse-down"></span></small>
+								<small> <span class="glyphicon glyphicon-star" aria-hidden="true"></span></small>
+								
+								</div
+
 								</div>
 						   </div>
 
-							</div>
+				</div>
 							
 							
 						
 						
-					</div>
-
+					
 		
 		
 		
@@ -65,28 +69,37 @@
 						<img src="img/navid.jpg"><a href="#"></img>
 						<p class="navid"><a href="#" style="color:black"><b>Navid Anjum</b></a></p><p><a href="#" style="color:black">Edit Profile</a></p>
 						</div>
-				
+						
+						<ul style="list-style: none;">
+						
+						<li>
 						<span class="popups" title="News Feed">
 					  
-					  	<p style="font-weight:bold">News Feed</p>
+					  	<b>News Feed</b>
 					    </span>
-					
-						<span class="popup" title="Messages">
-						<p>Messages</p>
+					</li>
+					<li>
+						<span class="popups" title="Messages">
+						Messages
 						</span>
-
-						<span class="popup" title="Events">
-						<p style="font-weight:bold">Events</p>
+						</li>
+						<li>
+						<span class="popups" title="Events">
+						<b>Events</b>
 						</span>
-
-						<span class="popup" title="Pages">
-						<p style="font-weight:bold">Pages</p>
+							</li>
+							<li>
+						<span class="popups" title="Pages">
+						<b>Pages</b>
 						</span>
-
-						<span class="popup" title="Groups">
+							</li>
+							<li>
+						<span class="popups" title="Groups">
 						  
-						<p>Groups</p>
+						<b>Groups</b>
 	  					</span>
+	  					</li
+	  				</ul>
 					  
 				</div>
 
@@ -120,7 +133,15 @@
 								</div>
 
 							<p>
-							<img src="img/1.jpg" class="img-responsive" alt="Responsive Image"></p>
+							<img src="img/1.jpg" class="img-responsive" alt="Responsive Image"></img></p>
+							<ul><a href="#">Like</a> <a href="#"> Comment</a> <a href="#">Share</a></ul>
+							<div class="session_image_comment">
+						<img src="img/navid.jpg"></img>
+						
+						<textarea class="textarea" rows="1" cols="65" placeholder="Describe yourself here..!"></textarea>
+						 	
+					
+						</div>
 							
 							</div>
 
@@ -134,18 +155,22 @@
 				</div>
 
 
-				</div>				
+			</div>				
 
 				
 				
-
-			</div>
 
 		</div>
 
+	
+		
 			<footer>
 				
 			</footer>
+	</div>
+
+	<script type="text/javascript" src="js/profile.js"></script>
+			
 
 
 			</body>
