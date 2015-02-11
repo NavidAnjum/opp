@@ -6,7 +6,6 @@
 	</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/profile.css" rel="stylesheet">
-
 	</head>
 
 	<body>
@@ -37,7 +36,7 @@
 							<div class="col-md-6">
 								<div class="header_image">
 								<img src="img/navid.jpg"><a href="#"></a></img>
-								<p class="header_image_name">Navid </p><p class="header_image_name_sl"> &#124 </p>
+								<p class="header_image_name">Navid </p><p class="header_image_name_sl">| </p>
 								<p class="header_image_name_home">Home</p>
 								<small class="gly"><span class="glyphicon glyphicon-user"></span></small>
 								<small><span class="glyphicon glyphicon-envelope"></span></small>
@@ -67,36 +66,43 @@
 						
 						<div class="session_image">
 						<img src="img/navid.jpg"><a href="#"></img>
-						<p class="navid"><a href="#" style="color:black"><b>Navid Anjum</b></a></p><p><a href="#" style="color:black">Edit Profile</a></p>
+						
+						<p class="navid"><a href="#" style="color:black"><b>Navid Anjum</b></a></p><p><a href="#" style="color:black">
+						Edit Profile</a></p>
 						</div>
 						
-						<ul style="list-style: none;">
-						
+						<ul id="addglyphicon" style="list-style: none;">
+						<!--class="" -->
 						<li>
+						<samp class="glyphicon glyphicon-cog"></samp>
 						<span class="popups" title="News Feed">
 					  
-					  	<b>News Feed</b>
+					 <span class="glyphicon glyphicon-th"></span><b>News Feed</b>
 					    </span>
 					</li>
 					<li>
+						<samp class="glyphicon glyphicon-cog" ></samp>
 						<span class="popups" title="Messages">
-						Messages
+						<span class="glyphicon glyphicon-envelope"></span>Messages
 						</span>
 						</li>
 						<li>
+						<samp class="glyphicon glyphicon-cog"></samp>
 						<span class="popups" title="Events">
-						<b>Events</b>
+						<span class="glyphicon glyphicon-gift"></span><b>Events</b>
 						</span>
 							</li>
 							<li>
+							<samp class="glyphicon glyphicon-cog"></samp>
 						<span class="popups" title="Pages">
-						<b>Pages</b>
+						 <span class="glyphicon glyphicon-thumbs-up"></span><b>Pages</b>
 						</span>
 							</li>
 							<li>
+							<samp class="glyphicon glyphicon-cog"></samp>
 						<span class="popups" title="Groups">
 						  
-						<b>Groups</b>
+					<span class="glyphicon glyphicon-book"></span><b>Groups</b>
 	  					</span>
 	  					</li
 	  				</ul>
@@ -117,6 +123,9 @@
 						 	<textarea class="textarea" rows="3" cols="72" placeholder="Describe yourself here..!"></textarea>
 						 	
 						 	<div class="status_below">
+<span class="glyphicon glyphicon-user"></span>
+<span class="glyphicon glyphicon-heart-empty"></span>
+<span class="glyphicon glyphicon-user"></span>
 
 							<p> <button type="submit" class="btn btn-primary">Post</button></p>
 
@@ -133,15 +142,18 @@
 								</div>
 
 							<p>
+						
 							<img src="img/1.jpg" class="img-responsive" alt="Responsive Image"></img></p>
-							<ul><a href="#">Like</a> <a href="#"> Comment</a> <a href="#">Share</a></ul>
+							
+							<ul><a href="#">&nbsp;&nbsp;Like</a> <a href="#"> Comment</a> <a href="#">Share</a></ul>
+						
 							<div class="session_image_comment">
+	
 						<img src="img/navid.jpg"></img>
 						
 						<textarea class="textarea" rows="1" cols="65" placeholder="Describe yourself here..!"></textarea>
 						 	
-					
-						</div>
+						 						</div>
 							
 							</div>
 
@@ -169,9 +181,9 @@
 			</footer>
 	</div>
 
-	<script type="text/javascript" src="js/profile.js"></script>
-			
+	<script type="text/javascript" src="js/jquery.min.js"></script>			
 
+	<script type="text/javascript" src="js/profile.js"></script>
 
 			</body>
 			</html>
